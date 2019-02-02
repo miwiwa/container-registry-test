@@ -1,3 +1,5 @@
 #!/bin/bash
+echo "Logging into CR"
+login=$(ibmcloud login)
 
-ibmcloud login
+echo "login result: $login"
